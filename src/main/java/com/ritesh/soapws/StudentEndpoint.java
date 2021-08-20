@@ -12,7 +12,7 @@ import com.ritesh.soapws.model.StudentDetailsResponse;
 @Endpoint
 public class StudentEndpoint
 {
-	private static final String NAMESPACE_URI = "http://www.ritesh.com/model";
+	private static final String NAMESPACE_URI = "http://www.ritesh.com/soapws/model";
 
 	private StudentRepository StudentRepository;
 
