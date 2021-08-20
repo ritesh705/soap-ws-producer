@@ -1,12 +1,12 @@
-package com.ritesh.soapws;
+package com.ritesh.soapws.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SoapWSApp {
-
+public class SoapWSProducerApp
+{
 	public static void main(String[] args) {
-		SpringApplication.run(SoapWSApp.class, args);
+		SpringApplication.run(SoapWSProducerApp.class, args);
 	}
 }

@@ -1,4 +1,4 @@
-package com.ritesh.soapws.config;
+package com.ritesh.soapws.producer.config;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
@@ -28,7 +28,7 @@ public class Config extends WsConfigurerAdapter {
 		DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
 		wsdl11Definition.setPortTypeName("StudentDetailsPort");
 		wsdl11Definition.setLocationUri("/service/student-details");
-		wsdl11Definition.setTargetNamespace("http://www.ritesh.com/soapws/model");
+		wsdl11Definition.setTargetNamespace("http://www.ritesh.com/soapws/producer/model");
 		wsdl11Definition.setSchema(schema);
 		return wsdl11Definition;
 	}

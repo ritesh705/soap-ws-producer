@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ritesh.soapws</groupId>
-	<artifactId>spring-boot-soap-service</artifactId>
+	<artifactId>soap-ws-producer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-soap-service</name>
-	<description>SOAP Producer</description>
+	<name>soap-ws-producer</name>
+	<description>SOAP WS Producer</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

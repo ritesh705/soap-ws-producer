@@ -1,4 +1,4 @@
-package com.ritesh.soapws;
+package com.ritesh.soapws.producer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
@@ -6,13 +6,13 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.ritesh.soapws.model.StudentDetailsRequest;
-import com.ritesh.soapws.model.StudentDetailsResponse;
+import com.ritesh.soapws.producer.model.StudentDetailsRequest;
+import com.ritesh.soapws.producer.model.StudentDetailsResponse;
 
 @Endpoint
 public class StudentEndpoint
 {
-	private static final String NAMESPACE_URI = "http://www.ritesh.com/soapws/model";
+	private static final String NAMESPACE_URI = "http://www.ritesh.com/soapws/producer/model";
 
 	private StudentRepository StudentRepository;
 
